@@ -12,3 +12,11 @@
     justify-content: center;
     text-align: center;
 }
+
+.contact-btn {
+    display: flex;
+}
+
+.contact-btn p, i {
+    color: var(--background);
+}
