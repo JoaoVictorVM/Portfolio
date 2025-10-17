@@ -10,3 +10,16 @@ body {
 span {
     color: var(--text-highlight);
 }
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
