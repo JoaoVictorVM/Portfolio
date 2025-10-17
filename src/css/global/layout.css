@@ -1,0 +1,12 @@
+* {
+    color: var(--text-color);
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    background: var(--background);
+}
+
+span {
+    color: var(--text-highlight);
+}
