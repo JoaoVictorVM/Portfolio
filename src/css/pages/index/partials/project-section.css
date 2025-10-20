@@ -48,6 +48,12 @@
 
 .project-container {
     flex: 1;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.project-container.change {
+    opacity: 0;
+    transform: translateY(10px);
 }
 
 .project-container h1 {
