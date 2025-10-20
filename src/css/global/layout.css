@@ -23,5 +23,23 @@ header {
 
 header ul {
     display: flex;
-    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+header li, a {
+    display: flex;
+    gap: 10%;
+    list-style: none;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-underline-offset: 40%;
+}
+
+header i {
+    color: white;
 }
