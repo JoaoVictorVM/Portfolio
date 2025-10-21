@@ -11,12 +11,30 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 1%;
 }
 
 .contact-btn {
+    margin-top: 2%;
     display: flex;
+    padding: 0.8%;
+    border-radius: 5px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #d5d5d5;
+    cursor: pointer;
 }
 
 .contact-btn p, i {
     color: var(--background);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 400;
 }
