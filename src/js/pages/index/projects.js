@@ -1,5 +1,6 @@
 const items = document.querySelectorAll(".sidebar li");
 const title = document.getElementById("project-title");
+const tec = document.getElementById("project-tec");
 const image = document.getElementById("project-img");
 const description = document.getElementById("project-description");
 const siteLink = document.getElementById("site-link");
@@ -9,6 +10,7 @@ const container = document.querySelector(".project-container");
 const projects = {
     clair: {
         title: "Landing Page Clair Obscur: Expedition 33",
+        tec: "HTML | CSS | JavaScript",
         image: "./src/assets/images/ProjectClair.png",
         description:
             "Uma pequena descricao do projeto clair",
@@ -17,6 +19,7 @@ const projects = {
     },
     login: {
         title: "teste1",
+        tec: "",
         image: "",
         description: "",
         site: "",
@@ -37,6 +40,7 @@ items.forEach((item) => {
 
         setTimeout(() => {
             title.textContent = project.title;
+            tec.textContent = project.tec;
             image.src = project.image;
             description.textContent = project.description;
             siteLink.href = project.site;

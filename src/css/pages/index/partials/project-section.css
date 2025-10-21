@@ -72,6 +72,10 @@
     opacity: 0.85;
 }
 
+#project-tec {
+    color: #687080;
+}
+
 .project-buttons {
     display: flex;
     gap: 1rem;
