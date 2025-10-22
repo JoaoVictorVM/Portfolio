@@ -15,15 +15,15 @@ const projects = {
         description:
             "Este projeto é uma landing page sobre no jogo Clair Obscur: Expedition 33.\nCriei-a de forma descontraída, principalmente para praticar técnicas de desenvolvimento front-end, e também porque me apaixonei pelo visual e pela atmosfera do jogo.\n\nO projeto foi desenvolvido utilizando apenas HTML, CSS e JavaScript puros, sem o uso de frameworks, com foco em aprimorar minhas habilidades de estruturação, estilização e interação básica com o usuário.\n\nAlém de ser um exercício técnico, também foi uma forma de unir duas coisas que gosto muito: design de interfaces e jogos.",
         site: "",
-        repo: "",
+        repo: "https://github.com/JoaoVictorVM/LP-Expedition33",
     },
     login: {
-        title: "",
-        tec: "",
-        image: "",
-        description: "",
-        site: "",
-        repo: "",
+        title: "Pagina de Login",
+        tec: "HTML | CSS | JavaScript",
+        image: "./src/assets/images/ProjectLogin.png",
+        description: "Este projeto é uma página de login completa, desenvolvida utilizando apenas HTML, CSS e JavaScript puros.\n\nCriei essa página após descobrir um site com ideias de pequenas animações e decidi colocar em prática — foi uma ótima oportunidade para experimentar e aprender mais.\n\nO projeto inclui as telas de login, registro e recuperação de senha.",
+        site: "https://joaovictorvm.github.io/PaginaLogin/",
+        repo: "https://github.com/JoaoVictorVM/PaginaLogin",
     },
 };
 
