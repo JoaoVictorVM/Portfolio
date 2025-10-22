@@ -13,12 +13,12 @@ const projects = {
         tec: "HTML | CSS | JavaScript",
         image: "./src/assets/images/ProjectClair.png",
         description:
-            "Uma pequena descricao do projeto clair",
+            "Este projeto é uma landing page sobre no jogo Clair Obscur: Expedition 33.\nCriei-a de forma descontraída, principalmente para praticar técnicas de desenvolvimento front-end, e também porque me apaixonei pelo visual e pela atmosfera do jogo.\n\nO projeto foi desenvolvido utilizando apenas HTML, CSS e JavaScript puros, sem o uso de frameworks, com foco em aprimorar minhas habilidades de estruturação, estilização e interação básica com o usuário.\n\nAlém de ser um exercício técnico, também foi uma forma de unir duas coisas que gosto muito: design de interfaces e jogos.",
         site: "",
         repo: "",
     },
     login: {
-        title: "teste1",
+        title: "",
         tec: "",
         image: "",
         description: "",

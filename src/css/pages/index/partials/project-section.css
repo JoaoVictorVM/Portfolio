@@ -1,6 +1,6 @@
 .projects-section {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .project-section-title {
@@ -76,6 +76,10 @@
     color: #687080;
 }
 
+#project-description {
+    white-space: pre-line;
+}
+
 .project-buttons {
     display: flex;
     gap: 1rem;
@@ -89,9 +93,12 @@
   font-weight: bold;
   border-radius: 8px;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-btn:hover {
-  background: var(--text-highlight);
-  color: #fff;
+    background-color: #d5d5d5;
+    cursor: pointer;
 }
