@@ -25,6 +25,11 @@ const skills = {
         stack: "front-end",
         description: "Atualmente, tenho me dedicado bastante ao estudo do Next.js, o framework que considero uma evolução natural do React.\n\nCom ele, consigo entregar aplicações com ótimo desempenho, renderização otimizada, SEO eficiente e uma experiência fluida tanto para o usuário quanto para o desenvolvedor.",
     },
+    tailwind: {
+        title: "Tailwind CSS:",
+        stack: "front-end",
+        description: "Há pouco tempo comecei a utilizar o Tailwind CSS, e ele vem se tornando uma parte importante dos meus novos projetos.\n\nGosto da forma como o framework simplifica o processo de estilização, permitindo criar interfaces modernas e responsivas com muito mais agilidade.",
+    }
 };
 
 items.forEach((item) => {
