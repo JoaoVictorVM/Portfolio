@@ -1,0 +1,57 @@
+/* CARDS PROJETOS */
+.projects-card {
+    width: 100%;
+    height: 25rem;
+    background: #454764;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    width: 98%;
+    height: 98%;
+}
+
+.card-content img {
+    width: 100%;
+    height: 70%;
+}
+
+.card-content h1 {
+    font-size: 1.5rem;
+}
+
+.card-content p {
+    color: #687080;
+}
+
+.card-content button {
+    color: var(--background);
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.8%;
+    border-radius: 5px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.card-content button:hover {
+    background-color: #d5d5d5;
+    cursor: pointer;
+}
+
+.info-card-area {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30%;
+}
+
+.btns-card-area {
+    margin-bottom: 2%;
+    display: flex;
+    gap: 2%;
+}
+/* CARDS PROJETOS */
