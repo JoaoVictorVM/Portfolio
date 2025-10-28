@@ -54,4 +54,15 @@
     display: flex;
     gap: 2%;
 }
+
+.btns-card-area a {
+    width: 100%;
+    height: 2.5rem; 
+}
+
+.btn-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* CARDS PROJETOS */
