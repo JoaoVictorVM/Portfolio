@@ -39,7 +39,7 @@
     opacity: 1;
     border-left: 2px solid var(--text-highlight);
     padding-left: 6px;
-    background-color: #454764;
+    background-color: #383c46;
 }
 
 .sidebar li:hover {
