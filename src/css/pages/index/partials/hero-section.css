@@ -1,21 +1,27 @@
 .hero-section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .hero-content {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 1%;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .hero-content a {
-    margin-top: 2%;
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.8%;
+    padding: 0.8rem;
     border-radius: 5px;
     gap: 10px;
     transition: 0.3s;
@@ -38,13 +44,26 @@
     cursor: pointer;
 }
 
-.contact-btn p, i {
+.contact-btn p,
+.contact-btn i {
     color: var(--background);
     font-weight: 400;
     font-size: 1rem;
 }
 
-.hero-content h1 {
-    font-size: 3rem;
-    font-weight: 400;
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+    }
+
+    .contact-btn {
+        width: 100%;
+        max-width: 320px;
+    }
 }

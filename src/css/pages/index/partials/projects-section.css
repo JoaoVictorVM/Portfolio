@@ -1,6 +1,6 @@
 .projects-section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .projects-section-title {
@@ -8,9 +8,25 @@
 }
 
 .projects-content {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 4%;
+    margin: 4% 10% 0;
     display: flex;
-    gap: 2.5%;
+    gap: 2.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .projects-section {
+        padding: 2rem 1rem;
+    }
+
+    .projects-section-title {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .projects-content {
+        flex-direction: column;
+        margin: 2rem 0 0;
+        gap: 2rem;
+    }
 }
