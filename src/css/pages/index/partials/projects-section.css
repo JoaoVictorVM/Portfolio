@@ -9,7 +9,8 @@
 
 .projects-content {
     margin: 4% 10% 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
 
